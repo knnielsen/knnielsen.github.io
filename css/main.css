@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+body{
+    font-family: 'Courgette', cursive;
+}
+header{
+    background-color: rgb(52, 152, 219);
+    padding: 8px 8px 8px 48px;
+    border-radius: 8px;
+    color: #fff;
+}
+header img{
+    width: 160px;
+    float: right;
+    box-shadow: 0 0 10px 5px rgba(41,41,41,.5);
+}
+header h1{
+    display: inline;
+}
+section.cit h2{
+    border-bottom: 1px solid rgb(185, 185, 185);
+    padding-bottom: 5px;
+}
+section.cit{
+    margin: 48px 0;
+}
+footer{
+    background-color: rgb(52, 152, 219);
+    padding: 8px 48px;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+}
+footer p{
+    margin: 0;
+    line-height: 1.5;
+    font-size: 12px;
+}
