@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
-body{
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+header {
     font-family: 'Courgette', cursive;
 }
+body {
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+footer {
+    font-family: 'Roboto Slab', serif;
+}
+
 header{
     background-color: rgb(52, 152, 219);
     padding: 8px 8px 8px 48px;
@@ -10,7 +21,6 @@ header{
 }
 header img{
     width: 160px;
-    float: right;
     box-shadow: 0 0 10px 5px rgba(41,41,41,.5);
 }
 header h1{
